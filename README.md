@@ -1,7 +1,7 @@
 # SkipList_Java
 SkipList implementation on Java
 
-This is a Skip List (that uses keys) data structure implemented on Java. It was created for my university project
+This is a Skip List data structure implemented on Java. It was created for my university project
 
 -------------
 Benchmark
