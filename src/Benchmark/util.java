@@ -56,16 +56,6 @@ public class util {
         shuffleProc(test);
     }
 
-//    static void generateList(UnrolledLinkedList<Float> list, int size, float[] test) {
-//
-//        for (int i = 0; i < size; i++) {
-//            float obj = generator.nextFloat();
-//            list.add(obj);
-//            test[i] = obj;
-//        }
-//
-//        shuffleProc(test);
-//    }
 
     static void generateIndexes(int[] indexes, int listSize) {
         int k = listSize - 2_000;
