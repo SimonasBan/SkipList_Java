@@ -69,22 +69,7 @@ public class Benchmark {
         memDifference("booksArray");
         memDifference("booksArray");
         keys = new int[booksArray.length];
-//        
-//        
-//        keys = new String[booksArray.length];
-//        
-//        memDifference("keys");
-//        memDifference("keys");
-//        memDifference("keys");
-//        
-//        
-//        
-//        
-//        for (int i = 1; i < 501; i++) {
-//            String temp = "B" + i;
-//            keys[i] = temp;
-//        }
-//        
+        
         int count = 0;
         for (Book b : booksArray) {
             BooksSL.add(count, b);
@@ -106,30 +91,9 @@ public class Benchmark {
         
         
         
-//        
-//        double[] ContainsValueOaObj = mapOaValueObj();
-//        double[] ContainsValueUtilsObj = mapUtilValueObj();
-//        benchContainsValueObj(ContainsValueOaObj, ContainsValueUtilsObj);
-//        
-//        double[] ContainsKeyOaObj = mapOaKeyObj();
-//        double[] ContainsKeyUtilsObj = mapKeyObj();
-//        benchContainsKeyObj(ContainsKeyOaObj, ContainsKeyUtilsObj);
-//        
-//        
-//        stringHash = ReadFile(stringHashSize);
-//        
-//        double[] ContainsValueOaString = mapOaValueString();
-//        double[] ContainsValueUtilsString = mapUtilValueString();
-//        benchContainsValueString(ContainsValueOaString, ContainsValueUtilsString, stringHashSize);
-//        
-//        
-//        double[] ContainsKeyOaString = mapOaKeyString();
-//        double[] ContainsKeyUtils = mapKeyString();
-//        benchContainsKeyString(ContainsKeyOaString, ContainsKeyUtils, stringHashSize);
-    }
+
     
-    //Kadangi booksArray jau sumaisytas ir taip, o skiplist yra rikiuotas, tai
-    //contains tikrinamas su nariais is ivairiu saraso vietu
+
     private double [] skipListContainsValue(){
 
 
