@@ -70,13 +70,7 @@ public final class Book implements Parsable<Book> {
     @Override
     public final void parse(String data) {
         try {   // ed - tai elementarūs duomenys, atskirti tarpais
-//            Scanner ed = new Scanner(data);
-//            ed.useDelimiter(";");
-//            author = ed.next();
-//            bookName = ed.next();
-//            year = ed.nextInt();
-//            bumberOfCopies = ed.nextInt();
-//            setPrice(ed.nextDouble()); //Kodėl čia atskiras metodas?
+
             Scanner scanner = new Scanner(data);
             author = scanner.next();
             bookName = scanner.next();
@@ -146,15 +140,7 @@ public final class Book implements Parsable<Book> {
     
     @Override
     public int compareTo(Book otherBook) {
-//        // lyginame pagal svarbiausią požymį - kainą
-//        double otherPrice = otherBook.getPrice();
-//        if (price < otherPrice) {
-//            return -1;
-//        }
-//        if (price > otherPrice) {
-//            return +1;
-//        }
-//        return 0;
+
         if(getBookRegNr() > otherBook.getBookRegNr()){
             return 1;
         }
