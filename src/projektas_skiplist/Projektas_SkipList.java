@@ -20,30 +20,7 @@ public class Projektas_SkipList {
     
     
      private void execute(){
-         //Random generatorFloat = new Random();
-        
-        //int[] indexes = new int[1000];
-        //SL<Float> skipList = new SL<>();
-        //float[] skipListTest = new float[32000];
 
-//        for (int i = 0; i < 4000; i++) {
-//            float obj = generatorFloat.nextFloat();
-//            skipList.add(i, obj);
-//            skipListTest[i] = obj;
-//        }
-//        
-//        
-//        int k = 4000 - 2000;
-//        for (int i = 0; i < indexes.length; i++) {
-//            //indexes[i] = generator.nextInt(k);
-//            indexes[i] = i;
-////            k++;
-//        }
-//        
-//        
-//        for (int i : indexes) {
-//            skipList.getByKey(i);
-//        }
         
 
         //-------------------------
@@ -116,20 +93,7 @@ public class Projektas_SkipList {
         Ks.oun("SkipList.Print()");
         BooksSL.Print();  
         
-//        SL<String> stringSL = new SL<>();
-//        
-//        String[] words = ReadFile(10, stringSL);
-//        
-//        stringSL.Print();
-//        
-//        Ks.oun(stringSL.containsAmount(words[0]));
 
-//        String a = "Antanas";
-//        char c = a.charAt(0);
-//        int b = (int)c;
-//        Ks.oun(b);
-        
-        //x
          
      }
 
